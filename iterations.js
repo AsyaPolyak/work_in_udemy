@@ -32,3 +32,17 @@ for(let i = 1; i < lenght; i++){
     }
     result+='\n';
 }console.log(result);*/
+//Мітки в циклах
+/*next: for(let i = 0; i < 3; i++){
+    console.log(`First level: ${i}`);
+    for(let j = 0; j < 3; j++){     
+        console.log(`Second level: ${j}`);  
+        for(let k=0; k < 3; k++){
+            if (k ===2) //continue next;
+                        break next;
+            console.log(`Third level: ${k}`);
+
+        }
+    }
+}
+*/
