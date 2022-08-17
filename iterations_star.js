@@ -32,7 +32,7 @@ const result1 = [];
  }
 console.log(result1);
 }task3();
-
+/*
 function task_3(){
     let data = [5, 10, 'Shopping', 20, 'Homework'];
     let result = [];
@@ -43,4 +43,4 @@ function task_3(){
      }
     console.log(result); 
     }task_3();
-
+*/
