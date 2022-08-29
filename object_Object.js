@@ -7,6 +7,9 @@ const obj ={
     colors: {
         border: 'black',
         bg: 'red'
+    },
+    makeTest: function() {
+        console.log("Test");
     }
 };
 console.log(obj["colors"]["border"]);
@@ -26,8 +29,6 @@ for(let key in obj){
     }
 }
 //Порахувати скільки ключей в обекті (в Object не має свойства lenght)**
-
-
 //додати counter++ до if
 let counter =0;
 for(let key in obj){
@@ -35,3 +36,8 @@ for(let key in obj){
 
 }
 console.log(counter);
+//або через метод об'єкта 
+console.log(Object.keys(obj));//[ 'name', 'width', 'height', 'colors' ]
+console.log(Object.keys(obj).length);//4
+
+obj.makeTest();//метод об'єкта Test
