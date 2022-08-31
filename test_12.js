@@ -26,7 +26,8 @@ function availableCurr(arr, missingCurrent) {
         if(curr !== missingCurrent){
             str+=`${curr}\n`;
         }
-    })
+    });
+    
     return str;
 }
 console.log(availableCurr([...baseCurrencies, ...additionalCurrencies], 'CNY'));
