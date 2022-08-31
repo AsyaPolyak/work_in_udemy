@@ -38,5 +38,5 @@ function isBudgetEnough(data) {
 
         }
 }
-
+ 
 console.log(isBudgetEnough(shoppingMallData));
